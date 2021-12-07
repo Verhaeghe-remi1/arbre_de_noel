@@ -7,6 +7,13 @@
     <title>utilisateur</title>
 </head>
 
+<style> 
+body
+{ 
+    color : white;
+} 
+</style>
+
 <body background="noel.gif">
     
 
@@ -17,21 +24,18 @@ require_once "fonctions.php";
 
     if ($_GET)
     {
-        $nom             = $_GET[ 'nom' ];
-        $prenom          = $_GET[ 'prenom' ];
-        
-        
-
+        $pseudo             = $_GET[ 'pseudo' ];
+    
         //$pw = md5( $pw );
 
         $mysqli = new mysqli($servername, $username, $password, $database);
         //insert into users ( nom, pw, idDep ) values( "Zorro", "zora", 22 );
 
         // insert into emprunteurs ( nom, pw, dateNaiss, civil ) values ( "Zorro", "123", '1955-07-14', 2 );
-        $query  = "insert into utilisateur ( nom, prenom ) values ( '$nom', '$prenom' );";
-        //print( $query );
+        $query  = "insert into utilisateur ( pseudo ) values ( '$pseudo' );";
+       // print( $query );
         if ( $mysqli->query( $query ) )
-            print( "<h3>$nom vous etes bien inscrit</h3>");
+            print( "<h3>$pseudo vous êtes bien inscrit</h3>");
         else
             print( "<h3>erreur d'inscription</h3>");
         $mysqli->close();
@@ -41,9 +45,7 @@ require_once "fonctions.php";
 
 <form action="#" method="get">
     
-<input type="text" name='nom' placeholder="nom">
-<br>
-<input type="text" name='prenom' placeholder="prenom">
+<input type="text" name='pseudo' placeholder="pseudo">
 <br>
 
 <button type="submit">OK</button>
