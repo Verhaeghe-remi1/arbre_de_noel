@@ -33,6 +33,9 @@ body   {
   background: #111;
   text-align : center;
   vertical-align: middle;
+  background-image : url("montagne.png");
+  background-size: cover;
+    background-repeat: no-repeat;
 }
 </style>
 </head>
