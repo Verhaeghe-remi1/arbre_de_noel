@@ -1,0 +1,35 @@
+BackLog du sapin de Noel
+
+- c'est un site pour distribuer les cadeaux au hasard, ce site est responsive
+    - preparer le repository GIT
+    - preparer le serveur
+
+- chaque participant doit s'inscrire
+    - un formulaire     (1jours)
+    - une DB             (1/2 jours)
+    //- compatible RGPD    ( )
+
+- un participant = un cadeau
+
+- le look de la page doit être noel ou saint nicolas
+    - plusieur thème de page d'accueil au choix (1 jours)
+    - un CSS (1 jours)
+
+- on ne reçoit pas son propre cadeau : une phrase affiche "untel donne son cadeau à untel"
+
+- il y a un (dé)compteur du temps avant la fête
+    - creer le compteur                                 (1 jours)
+    - une page d'admin, protégée par un mot de passe, pour régler la date de l'évènement                 (1 jours)
+
+
+- un cadeau qui s'affiche, on clique dessus 
+    - une page pour la distribution (1 jours)
+
+
+
+
+
+
+- page d'inscription
+- page principale
+- page pour le tirage des cadeaux

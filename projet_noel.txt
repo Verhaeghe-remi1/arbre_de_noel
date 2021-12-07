@@ -1,0 +1,69 @@
+                            <<<<<<<<<<<<<<<<<<<<project noel>>>>>>>>>>>>>>>>>>>>>>>> 
+
+Objectif = délivrer les cadeaux par tirage au sort (cadeaux mise en jeu par la personne non distribué à la personne qui la acheté)
+           prix cadeau = 5 euros max 
+
+                                    <<<<<idée >>>>>  
+                                      
+
+                                     application local ForEach 
+        la personne non inscrite peut venir s'incrire, 
+                                        SQL Utilisateur
+                                        tableau inscription 
+                                            (popup)
+                    mail / pw /nom / prenom  / date de naissance / cadeau / avatar 
+                                            ///////
+                                            Login 
+                                    (sur la page cheminé)  
+                                          mail / pw 
+                                         ////////
+                 la personne logué peut  écrire dans le blog,
+                                         appuyé sur tirage au sort, (une fois la date atteinte) 
+                                         se loguer, 
+                                         se désincrire, 
+                                         mettre une photo avatar,
+                                         modifié son cadeau,
+                                         mettre la photo de son cadeau, 
+                                         modifié sa fiche, 
+                                         invité des gens ??, 
+                                         créer des groupes ?? ,
+                                         régler l'heure  ?? , 
+                                         lire la fiche des autres ??, 
+                                         liste souhaits, 
+                                         adresse du père noel ?? 
+                                        ///////////////
+    la personne qui crée un groupe peut lire la fiche des autres,  
+                                        envoyer des invitations, 
+                                        régler l'heure de l'événement,
+                                        gère les inscriptions, 
+
+                                    page 1
+                login => avec bouton pour l'inscription SQL (11 personnes ?) + 
+                                animation flocon
+
+
+                                     page 2
+                page intermédiaire entre les cadeaux et l'attente de l'évémement 
+        timer => compte à rebours avec date heure minute (17/12/2021 à 10h formulaire)
+                            nombre d'inscrit 
+                        animation = flocon de neige fenetre 
+                                    feu de cheminée
+                                    horloge  
+
+
+                                    page 3 
+
+                                    cadeaux ?
+
+
+
+
+
+        <<<<<<<<<<<<<<<<<<<<<<<<<SQL table >>>>>>>>>>>>>>>>>>>>>>>>> 
+
+                                    Utilisateurs
+                                    cadeaux ? 
+                                    donne cadeau ? 
+
+
+
