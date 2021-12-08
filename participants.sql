@@ -6,7 +6,7 @@ use arbre_de_noel;
 drop table if exists participants;
 create table participants (
     id int PRIMARY KEY not null auto_increment,
-    nom  varchar(30)
+    nom  varchar(30) UNIQUE
 );
 
 insert into participants ( nom ) values
@@ -20,7 +20,6 @@ insert into participants ( nom ) values
 ("Nelly"        ),
 ("Xavier"       ),
 ("vincent"      ), 
-("xavier"       ), 
 ("benoit"       ), 
 ("samuel"       ), 
 ("baptiste"     ), 
