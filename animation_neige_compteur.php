@@ -295,8 +295,10 @@ body   {
 </div>
 
 <script>
+var dateNoel = "Dec 17, 2021 10:00:00"
+
                         // compteur 
-var countDownDate = new Date("Dec 17, 2021 10:00:00").getTime();
+var countDownDate = new Date(dateNoel).getTime();
 
 var x = setInterval(function () {
 

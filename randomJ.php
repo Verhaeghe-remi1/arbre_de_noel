@@ -20,11 +20,22 @@ if($total > 0) {
         
     }
         
-}       
-         $tableau_melange = $tableau; 
+}
+$mysqli->close();
+
+         $tableau_melange = $tableau;
+         $res = []; 
          shuffle($tableau_melange);
-         $result = array_combine($tableau, $tableau_melange);
-         $mysqli->close();
+         shuffle($tableau);
+         while ( count($tableau_melange) )
+         {
+         while(  $tableau_melange[0] == $tableau[0] )
+            shuffle($tableau_melange);
+        $res[ $tableau_melange[0] ] = $tableau[0];
+        //print( $tableau_melange[0]." donne à ".$tableau[0]." <br>");
+        array_shift($tableau_melange);
+        array_shift($tableau);
+         }
          
-    print( json_encode( $result ) );
+         print( json_encode( $res ) );
 ?>
