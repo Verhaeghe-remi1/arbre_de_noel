@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background: url("https://static.vecteezy.com/ti/vecteur-libre/p1/1779972-noel-fond-vert-avec-guirlande-et-boules-vertes-vectoriel.jpg") no-repeat fixed;
+    background-position: right bottom, left top;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  @font-face {
+	font-family:'frozen'; 
+	src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff');
+}
+
+    body .title {
+      position: absolute;
+      top: 50px;
+      font-family: 'frozen', serif;
+      color: white;
+      
+      
+  }
+
+  body .compteur {
+      position: absolute;
+      text-align: center;
+      top: 95px;
+      font-family: 'frozen', serif;
+      color: red;
+  }
+
+  body .compteur #demo {
+    color: white;
+    font-size: 40px;
+  }
+  
+  body .supern {
+    width: 25%; 
+ /* position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto; */
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+  
+  
+  body .supern img {
+    width: 100%;
+    /*position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; */
+    border: 7px #fff solid;
+    border-bottom: 25px #fff solid;
+  }
+
+  body
+
+  body .supern img.top:hover {
+      opacity: 0;
+  }
+  
+  body .santa {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  
+  body .santa img {
+    width: 200px;
+  }
+
+  body .santa2 {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+  }
+
+  body .santa2 img {
+      width: 250px;
+  }
+
+  body .boutton {
+      position: absolute;
+      bottom:  160px;
+      font-family: 'frozen', serif;
+      
+      background-color: green;
+-webkit-border-radius: 60px;
+border-radius: 60px;
+border: none;
+color: #eeeeee;
+cursor: pointer;
+display: inline-block;
+font-family: sans-serif; 
+font-size: 20px;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+
+  }
+
+  
+
+ /* @media screen and (max-width: 880px) {
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+      
+      body {
+        background: url("https://static.vecteezy.com/ti/vecteur-libre/p1/1779972-noel-fond-vert-avec-guirlande-et-boules-vertes-vectoriel.jpg") no-repeat fixed;
+        background-position: right bottom, left top;
+        background-size: cover;
+        -o-background-size: cover;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        min-height: 100vh;
+        width: 100%;
+      }
+    
+      @font-face {
+        font-family:'frozen'; 
+        src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff');
+    }
+    
+        body .title {
+          position: absolute;
+          top: 50px;
+          font-family: 'frozen', serif;
+          color: white;
+          
+          
+      }
+      
+      body .supern {
+        width: 25%; 
+     /* position:relative;
+      height:281px;
+      width:450px;
+      margin:0 auto; */
+      /*  -webkit-transform: rotate(-3deg);
+                transform: rotate(-3deg);
+      }
+      
+      
+      body .supern img {
+        width: 100%;
+        /*position:absolute;
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out; */
+      /*  border: 7px #fff solid;
+        border-bottom: 25px #fff solid;
+      }
+    
+      body
+    
+      body .supern img.top:hover {
+          opacity: 0;
+      }
+      
+      body .santa {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+      }
+      
+      body .santa img {
+        width: 200px;
+      }
+    
+      body .santa2 {
+          position: absolute;
+          top: 50px;
+          left: 50px;
+      }
+    
+      body .santa2 img {
+          width: 250px;
+      }
+} *
