@@ -1,0 +1,393 @@
+@font-face {
+  font-family: "frozen";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
+}
+
+:root {
+  --fonts: frozen;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url("https://static.vecteezy.com/ti/vecteur-libre/p1/1779972-noel-fond-vert-avec-guirlande-et-boules-vertes-vectoriel.jpg")
+    no-repeat fixed;
+  background-position: right bottom, left top;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body .santaThree {
+  position: absolute;
+  top: 75px;
+  left: 44px;
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+body .santaMan {
+  position: absolute;
+  top: 60px;
+  right: 77px;
+  -webkit-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+
+body #noelapp {
+  width: 100%;
+  height: 100vh;
+}
+
+body #noelapp .title-c {
+  text-align: center;
+  margin: 50px 0 25px 0;
+}
+
+body #noelapp .title-c .title {
+  text-shadow: 2px 2px 2px black;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: var(--fonts);
+}
+
+body #noelapp .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+body #noelapp .wrapper .compteur {
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+body #noelapp .wrapper .compteur .title-compteur {
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 10px;
+  color: red;
+  font-size: 1.7em;
+  font-weight: 400;
+  font-family: var(--fonts);
+}
+
+body #noelapp .wrapper .compteur #compteur {
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.7em;
+  font-weight: 400;
+  font-family: var(--fonts);
+}
+
+body #noelapp .wrapper .compteur .txt-compteur {
+  text-shadow: 2px 2px 2px black;
+  color: red;
+  font-size: 1.7em;
+  font-weight: 400;
+  font-family: var(--fonts);
+}
+
+body #noelapp .wrapper .polaroide-container {
+  position: relative;
+  height: 500px;
+  width: 500px;
+}
+
+body #noelapp .wrapper .polaroide-container .polaroide {
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  height: 500px;
+  width: 500px;
+  top: 50%;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%;
+  /* position the left edge of the element at the middle of the parent */
+  -webkit-transform: translate(-50%, -50%) rotate(-5deg);
+  transform: translate(-50%, -50%) rotate(-5deg);
+  position: absolute;
+}
+
+body #noelapp .wrapper .polaroide-container .polaroide img {
+  width: 100%;
+  border: 7px #fff solid;
+  border-bottom: 25px #fff solid;
+}
+
+body #noelapp .wrapper .signinButton {
+  text-decoration: none;
+  margin-top: 85px;
+  overflow: hidden;
+  background-color: green;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  height: 35px;
+  position: relative;
+  -webkit-transition: color 0.3s, background 0.8s, width 0.5s;
+  transition: color 0.3s, background 0.8s, width 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #noelapp .wrapper .signinButton p {
+  z-index: 10;
+  color: #eeeeee;
+  font-family: var(--fonts);
+  font-size: 20px;
+  font-weight: 300;
+  -webkit-transition: opacity 0.3s, visibility 0.4s;
+  transition: opacity 0.3s, visibility 0.4s;
+}
+
+body #noelapp .wrapper .signinButton .overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  border-radius: 4px;
+  -webkit-transition: color 0.3s, width 0.5s, background 0.4s;
+  transition: color 0.3s, width 0.5s, background 0.4s;
+}
+
+body #noelapp .wrapper .signinButton .overlay p {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s, visibility 0.6s;
+  transition: opacity 0.4s, visibility 0.6s;
+}
+
+body #noelapp .wrapper .signinButton:hover {
+  color: black;
+  background-color: transparent;
+}
+
+body #noelapp .wrapper .signinButton:hover p {
+  visibility: hidden;
+  opacity: 0;
+}
+
+body #noelapp .wrapper .signinButton:hover .overlay {
+  width: 100%;
+  background: red;
+}
+
+body #noelapp .wrapper .signinButton:hover .overlay p {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (width: 375px) {
+  body {
+    background-position: bottom left;
+    background-size: cover;
+  }
+  body .santaThree {
+    position: absolute;
+    top: -200px;
+    right: 50px;
+  }
+  body .santaMan {
+    position: absolute;
+    top: -200px;
+    left: 50px;
+  }
+  #noelapp {
+    height: 100vh;
+    width: 100%;
+  }
+  #noelapp .title-c {
+    margin: 25px 0 25px 0 !important;
+  }
+  #noelapp .title-c .title {
+    color: #fff;
+    font-size: 1.8rem !important;
+    font-weight: 500;
+    font-family: var(--fonts);
+  }
+  #noelapp .wrapper .compteur #compteur {
+    font-size: 35px !important;
+  }
+  #noelapp .wrapper .compteur .txt-compteur {
+    font-size: 1.5rem !important;
+  }
+  #noelapp .wrapper .polaroide-container {
+    height: 400px !important;
+    width: 100% !important;
+  }
+  #noelapp .wrapper .polaroide-container .polaroide {
+    max-height: 300px !important;
+    max-width: 300px !important;
+  }
+  #noelapp .wrapper .signinButton {
+    margin-top: 60px !important;
+  }
+}
+
